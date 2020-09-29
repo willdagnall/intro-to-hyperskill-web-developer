@@ -1,0 +1,39 @@
+body {
+    background-color: green;
+}
+.container{
+    text-align: center;
+    position: relative;
+    top:200px
+}
+
+.white-keys kbd {
+    display: inline-block;
+    border: 2px solid;
+    height: 150px;
+    width: 70px;
+    position: relative;
+    background-color: white;
+   z-index: 0;
+    margin-left: -2px;
+    text-align: center;
+}
+.black-keys kbd {
+    display: inline-block;
+    border: 2px white solid;
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 30px;
+    position: relative;
+    text-align: center;
+    top: -153px;
+    z-index: 1;
+}
+
+.black-keys kbd + kbd {
+    margin-left: 45px;
+}
+#E_key + #T_key {
+    margin-left: 89px;
+}
